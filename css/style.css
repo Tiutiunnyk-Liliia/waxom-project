@@ -115,12 +115,13 @@ body{
     font-weight: 800;
     font-size: 14px;
     line-height: 23px;
-    padding: 12px 30px;
+    padding: 12px 0;
     background-color: #998675;
     border-bottom: 3px solid #736357;
     border-radius: 3px;
     display: inline-block;
     margin-bottom: 325px;
+    width: 170px;
 }
 
 .header-slider__arrows {
@@ -250,4 +251,52 @@ body{
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 40px;
+}
+
+
+.banner{
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+}
+
+.banner__inner{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__title{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.banner__title span {
+    color: #c7b299;
+}
+
+.banner__text{
+    font-size: 18px;
+    line-height: 18px;
+
+}
+
+.banner__btn{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 12px 0;
+    background-color: #998675;
+    border-bottom: 3px solid #736357;
+    border-radius: 3px;
+    display: inline-block;
+    width: 170px;
+    color: #fff;
+    text-align: center;
 }
