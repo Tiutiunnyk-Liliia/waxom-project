@@ -171,3 +171,56 @@ body{
     border-radius: 50%;
     padding: 0;
 }
+
+.services__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.services__item{
+    max-width: 270px;
+    text-align: center;
+    position: relative;
+}
+
+.services__item::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #8c8c8c;
+}
+
+.services__item:hover::after{
+    background-color: #c7b299;
+}
+
+.services__item-img{
+    min-height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+
+.services__item-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.services__item:hover .services__item-title{
+    color: #c7b299;
+}
+
+.services__item-text{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
