@@ -17,7 +17,9 @@ $(function () {
     });
 
     $('.realisation-slider').slick({
-
+        arrows: false,
+        slidesToShow: 1,
+        centerMode: true,
     });
 
 
