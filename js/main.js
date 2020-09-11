@@ -16,6 +16,10 @@ $(function () {
             '            </button>'
     });
 
+    $('.realisation-slider').slick({
+
+    });
+
 
 });
 
