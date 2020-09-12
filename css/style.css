@@ -472,3 +472,52 @@ body{
     font-size: 14px;
     line-height: 14px;
 }
+
+.mobile__inner{
+    margin-top: 80px;
+    background-image: url(../img/mobile-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding-left: 500px;
+}
+
+.mobile__info{
+    max-width: 670px;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+
+.mobile__title{
+    margin-bottom: 40px;
+}
+
+.mobile__text{
+    margin-bottom: 70px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.mobile__list{
+    margin-left: 50px;
+}
+
+.mobile__list-item{
+    padding-left: 50px;
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.mobile__list-item::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/mobile-list.png);
+}
+
