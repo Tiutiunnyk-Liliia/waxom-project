@@ -425,3 +425,50 @@ body{
     display: block;
     margin: 0 auto;
 }
+
+.video{
+    background-image: url(../img/video-bg.jpg);
+    background-size: cover;
+}
+
+.video__inner{
+    text-align: center;
+    max-width: 575px;
+    padding: 200px 0;
+    margin: 0 auto;
+}
+
+.video__btn{
+    font-size: 0;
+    line-height: 0;
+    background-color: transparent;
+    background-image: url(../img/video.png);
+    border: none;
+    margin-bottom: 40px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    outline: none;
+}
+
+.video__title{
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.video__text{
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.video__time{
+    color: #c7b299;
+    font-size: 14px;
+    line-height: 14px;
+}
