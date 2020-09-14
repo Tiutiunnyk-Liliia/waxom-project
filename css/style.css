@@ -521,3 +521,52 @@ body{
     background-image: url(../img/mobile-list.png);
 }
 
+.numbers{
+    background-image: url(../img/numbers-bg.jpg);
+    background-size: cover ;
+}
+
+.numbers__inner{
+    padding: 60px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.numbers__item{
+    position: relative;
+}
+
+.numbers__item::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+
+.numbers__icon{
+    margin-bottom: 17px;
+}
+
+.numbers__num{
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.numbers__text{
+    color: #c7b299;
+    margin-bottom: 28px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
