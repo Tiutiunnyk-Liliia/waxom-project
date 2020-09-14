@@ -747,3 +747,16 @@ body{
     width: 25px;
     height: 25px;
 }
+
+
+.partners{
+    background-image: url(../img/partners-bg.jpg);
+    background-size: cover;
+}
+
+.partners__inner{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
