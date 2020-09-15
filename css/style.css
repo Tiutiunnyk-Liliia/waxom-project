@@ -209,9 +209,15 @@ body{
 }
 
 .services__item{
-    max-width: 270px;
-    text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.services__item-inner{
+    width: 300px;
+    padding: 0 15px;
+    text-align: center;
 }
 
 .services__item::after{
