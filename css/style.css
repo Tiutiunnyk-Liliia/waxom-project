@@ -24,6 +24,8 @@ li{
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
+    color: inherit;
+    font-family: inherit;
 }
 
 p{
@@ -125,6 +127,7 @@ body{
     display: inline-block;
     margin-bottom: 325px;
     width: 170px;
+    color: #fff;
 }
 
 .header-slider__arrows {
@@ -241,6 +244,10 @@ body{
     text-align: center;
 }
 
+.realisation__img {
+    line-height: 0;
+}
+
 .title{
     color: #555555;
     font-family: 'Raleway', sans-serif;
@@ -250,18 +257,10 @@ body{
     margin-bottom: 30px;
 }
 
-.realisation__title{
-
-}
-
 .text{
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 40px;
-}
-
-.realisation__text{
-
 }
 
 

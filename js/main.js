@@ -16,11 +16,6 @@ $(function () {
             '            </button>'
     });
 
-    $('.realisation-slider').slick({
-        arrows: false,
-        slidesToShow: 1,
-        centerMode: true,
-    });
 
     $('.posts-slider').slick({
         infinite: false,
