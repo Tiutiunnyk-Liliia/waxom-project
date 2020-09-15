@@ -273,8 +273,13 @@ body{
     text-align: center;
 }
 
-.realisation__img {
+.realisation__img{
     line-height: 0;
+    width: 100%;
+}
+
+.realisation__img img{
+    width: 100%;
 }
 
 .title{
@@ -303,6 +308,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner__info{
+    padding-right: 30px;
 }
 
 .banner__title{
@@ -334,8 +343,9 @@ body{
     background-color: #998675;
     border-bottom: 3px solid #736357;
     border-radius: 3px;
-    display: inline-block;
-    width: 170px;
+    display: block;
+    width: 100%;
+    max-width: 170px;
     color: #fff;
     text-align: center;
 }
