@@ -45,6 +45,7 @@ body{
     max-width: 1230px;
     padding: 0 30px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .header{
@@ -55,12 +56,18 @@ body{
     height: 100vh;
 }
 
+.header__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .header__top{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 90px;
-    margin-bottom: 250px;
 }
 
 .menu-list{
@@ -88,9 +95,16 @@ body{
     margin-left: 25px;
 }
 
+.header-slider__wrapper{
+    display: flex;
+    align-items: flex-end;
+}
+
 .header-slider{
     position: relative;
     padding-bottom: 40px;
+    min-height: 0;
+    min-width: 0;
 }
 
 .header-slider__inner{
@@ -130,7 +144,7 @@ body{
     border-bottom: 3px solid #736357;
     border-radius: 3px;
     display: inline-block;
-    margin-bottom: 175px;
+    margin-bottom: 250px;
     width: 170px;
     color: #fff;
 }
@@ -162,6 +176,10 @@ body{
     align-items: center;
     font-size: 0;
     line-height: 0;
+    position: absolute ;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .slick-dots button{
