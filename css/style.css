@@ -10,6 +10,8 @@ a{
     display: inline-block;
     color: inherit;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul,
@@ -759,4 +761,139 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.footer{
+    color: #555555;
+}
+
+.footer__top{
+    background-color: #191919;
+}
+
+.footer__top-inner{
+    padding: 100px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__top-item{
+    width: 100%;
+    max-width: 300px;
+    padding: 0 10px;
+}
+
+
+.footer__logo-text{
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer__logo-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    padding-right: 25px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.footer__logo-btn::after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 5px;
+    height: 8px;
+    background-image: url(../img/footer-arrow.png);
+}
+
+.footer-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-white{
+    color: #959595;
+}
+
+.footer-posts{
+
+}
+
+.footer-posts__item,
+.footer-twitter__item{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #252525;
+}
+
+.footer-posts__item:hover .footer-posts__date,
+.footer-twitter__item:hover .footer-twitter__hour{
+    color: #fff;
+}
+
+.footer-posts__item:hover .footer-posts__text,
+.footer-twitter__item:hover .footer-twitter__text,
+.footer-twitter__item:hover .footer-twitter__text .footer-white{
+    color: #c7b299;
+}
+
+.footer-posts__date,
+.footer-twitter__hour{
+    font-size: 12px;
+    line-height: 20px;
+    color: #363636;
+}
+
+.twitter-blue{
+    color: #02b4e4;
+}
+
+.footer-dribble__items{
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-dribble__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.footer__bottom{
+    background-color: #111111;
+}
+
+.footer__bottom-inner{
+    padding: 40px 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom-copy a ,
+.footer__bottom-designed a{
+    padding-right: 8px;
+}
+
+.footer__bottom-copy a:hover,
+.footer__bottom-copy a:hover .footer-white{
+    color: #c7b299;
+}
+
+.footer__bottom-copy a + a,
+.footer__bottom-designed a + a {
+    padding-left: 8px;
+    border-left: 1px solid  #252525;
 }
