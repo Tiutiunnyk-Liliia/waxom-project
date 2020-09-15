@@ -67,6 +67,10 @@ body{
     justify-content: space-between;
 }
 
+/*.menu__btn{*/
+/*    display: none;*/
+/*}*/
+
 .menu-list li + li{
     margin-left: 30px;
 }
