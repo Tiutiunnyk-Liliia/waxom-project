@@ -52,6 +52,7 @@ body{
     background-size: cover;
     background-position: center center;
     color: #ffffff;
+    height: 100vh;
 }
 
 .header__top{
@@ -59,7 +60,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 90px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 
 .menu-list{
@@ -67,9 +68,9 @@ body{
     justify-content: space-between;
 }
 
-/*.menu__btn{*/
-/*    display: none;*/
-/*}*/
+.menu__btn{
+    display: none;
+}
 
 .menu-list li + li{
     margin-left: 30px;
@@ -129,7 +130,7 @@ body{
     border-bottom: 3px solid #736357;
     border-radius: 3px;
     display: inline-block;
-    margin-bottom: 325px;
+    margin-bottom: 175px;
     width: 170px;
     color: #fff;
 }
