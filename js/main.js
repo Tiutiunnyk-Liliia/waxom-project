@@ -20,21 +20,7 @@ $(function () {
                 settings: {
                     arrows: false,
                 }
-            },
-            // {
-            //     breakpoint: 480,
-            //     settings: {
-            //         slidesToShow: 1,
-            //         centerMode: true,
-            //         variableWidth: true,
-            //     }
-            // },
-            // {
-            //     breakpoint: 380,
-            //     settings: {
-            //         slidesToShow: 1,
-            //     }
-            // },
+            }
         ]
     });
 
@@ -49,8 +35,15 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 820,
+                settings: {
                     slidesToShow: 2,
                     centerMode: true,
+                    centerPadding: '60px',
                     variableWidth: true,
                 }
             },
@@ -59,13 +52,8 @@ $(function () {
                 settings: {
                     slidesToShow: 1,
                     centerMode: true,
-                    variableWidth: true,
-                }
-            },
-            {
-                breakpoint: 380,
-                settings: {
-                    slidesToShow: 1,
+                    centerPadding: '0px',
+                    variableWidth: false,
                 }
             },
         ]

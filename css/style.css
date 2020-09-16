@@ -642,11 +642,12 @@ body{
 }
 
 .posts-slider__item{
-    position: relative;
 }
 
 .posts-slider__wrapper{
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
+    position: relative;
 }
 
 
@@ -689,6 +690,7 @@ body{
 }
 
 .posts-slider__img img{
+    display: block;
     width: 100%;
 }
 
