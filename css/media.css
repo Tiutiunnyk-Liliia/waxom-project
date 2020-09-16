@@ -24,7 +24,7 @@
 
     .mobile__inner{
         margin-top: 0;
-        background-size: auto;
+        background-size: 370px;
         padding-left: 350px;
     }
 
@@ -326,6 +326,10 @@
         padding: 0 10px;
     }
 
+    .menu__btn{
+        right: 10px;
+    }
+
     .header-slider__btn{
         margin-bottom: 70px;
     }
@@ -371,6 +375,15 @@
         background-color: rgba( 255, 255, 255, 0.85);
         color: #555555;
         padding-bottom: 80px;
+    }
+
+    .mobile .container{
+        padding: 0;
+    }
+
+    .mobile__info{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .mobile__list{
