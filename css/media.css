@@ -21,6 +21,17 @@
     .project__content-inner{
         justify-content: space-around;
     }
+
+    .mobile__inner{
+        margin-top: 0;
+        background-size: auto;
+        padding-left: 350px;
+    }
+
+    .mobile__info {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 1000px){
@@ -89,25 +100,46 @@
 
 }
 
-@media (max-width: 800px){
-    .banner__title{
+@media (max-width: 800px) {
+    .banner__title {
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .banner__text{
+
+    .banner__text {
         font-size: 16px;
 
     }
 
-    .project__tabs{
+    .project__tabs {
         flex-wrap: wrap;
     }
 
-    .project__tab{
+    .project__tab {
         margin-bottom: 10px;
     }
 
+    .mobile__inner {
+        background-size: 300px;
+        padding-left: 225px;
+    }
 }
+
+
+@media (max-width: 750px){
+    .mobile__inner {
+        background-size: 270px;
+        padding-left: 0;
+    }
+    .mobile__text {
+        margin-bottom: 80px;
+    }
+
+    .mobile__list {
+        margin-left: 240px;
+    }
+}
+
 
 
 
@@ -148,7 +180,20 @@
         line-height: 64px;
     }
 
+    .mobile__inner {
+        background-size: 230px;
+    }
+
+    .mobile__text {
+        margin-bottom: 40px;
+    }
+
+    .mobile__list {
+        margin-left: 205px;
+    }
+
 }
+
 
 @media (max-width: 540px){
 
@@ -169,7 +214,30 @@
         line-height: 40px;
     }
 
+    .mobile__inner {
+        background-size: 200px;
+    }
 
+    .mobile__list {
+        margin-left: 165px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .mobile__inner{
+        background-size: auto;
+    }
+    .mobile__info{
+        background-color: rgba( 255, 255, 255, 0.85);
+        color: #555555;
+        padding-bottom: 80px;
+    }
+
+    .mobile__list{
+        margin-left: 10px;
+        color: #555555;
+    }
 }
 
 
@@ -208,16 +276,16 @@
     }
 }
 
-@media (max-width: 350px){
-    .container{
+@media (max-width: 350px) {
+    .container {
         padding: 0 10px;
     }
 
-    .header__top{
+    .header__top {
         padding-top: 10px;
     }
 
-    .menu__btn{
+    .menu__btn {
         top: 90px;
     }
 
@@ -225,6 +293,7 @@
         padding: 6px 10px;
     }
 }
+
 
 
 
