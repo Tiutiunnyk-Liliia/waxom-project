@@ -34,6 +34,13 @@
     }
 }
 
+@media (max-width: 1100px){
+    .numbers__inner {
+        padding: 60px 0;
+    }
+
+}
+
 @media (max-width: 1000px){
     .header{
         position: relative;
@@ -123,6 +130,20 @@
         background-size: 300px;
         padding-left: 225px;
     }
+
+    .numbers__inner{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .numbers__icon {
+        margin-bottom: 7px;
+    }
+    .numbers__num {
+        font-size: 34px;
+        line-height: 34px;
+    }
+
 }
 
 
@@ -140,6 +161,18 @@
     }
 }
 
+@media (max-width: 700px){
+    .numbers__item{
+        width: 30%;
+        margin-bottom: 40px;
+    }
+
+    .numbers__inner {
+        padding: 60px 0 20px;
+    }
+
+
+}
 
 
 
@@ -220,6 +253,10 @@
 
     .mobile__list {
         margin-left: 165px;
+    }
+
+    .numbers__item{
+        width: 50%;
     }
 
 }
