@@ -74,6 +74,10 @@ $(function () {
         $('.menu-list').toggleClass('menu-list--active')
     })
 
+    $('.footer-title').on('click', function () {
+        $(this).next().toggleClass('footer__item-wrapper--active');
+    });
+
 
 });
 
