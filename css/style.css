@@ -418,6 +418,11 @@ body{
     height: 237px;
 }
 
+.project__content-img img{
+    display: block;
+    width: 100%;
+}
+
 
 .project__shadow{
     display: none;

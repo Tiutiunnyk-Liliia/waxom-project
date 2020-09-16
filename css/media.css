@@ -17,6 +17,10 @@
         min-width: 300px;
         margin-bottom: 50px;
     }
+
+    .project__content-inner{
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 1000px){
@@ -90,6 +94,14 @@
         font-size: 16px;
 
     }
+
+    .project__tabs{
+        flex-wrap: wrap;
+    }
+
+    .project__tab{
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -131,6 +143,10 @@
 
 @media (max-width: 540px){
 
+    .container{
+        padding: 0 10px;
+    }
+
     .header-slider__btn{
         margin-bottom: 70px;
     }
@@ -143,6 +159,8 @@
         font-size: 30px;
         line-height: 40px;
     }
+
+
 }
 
 
@@ -169,6 +187,12 @@
     .title{
         font-size: 26px;
     }
+
+
+    .project__content-img{
+        height: auto;
+        width: 100%;
+    }
 }
 
 @media (max-width: 350px){
@@ -182,6 +206,10 @@
 
     .menu__btn{
         top: 90px;
+    }
+
+    .project__tab {
+        padding: 6px 10px;
     }
 }
 
