@@ -331,7 +331,7 @@
     }
 
     .header-slider__btn{
-        margin-bottom: 70px;
+        margin-bottom: 120px;
     }
 
     .header-slider__suptitle{
@@ -415,9 +415,6 @@
         top: 120px;
     }
 
-    .header-slider__btn{
-        margin-bottom: 30px;
-    }
 
     .title{
         font-size: 26px;
@@ -441,6 +438,10 @@
 
     .header__top {
         padding-top: 10px;
+    }
+
+    .header-slider__btn{
+        margin-bottom: 80px;
     }
 
     .menu__btn {
